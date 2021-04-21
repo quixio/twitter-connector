@@ -1,7 +1,7 @@
 # twitter-connector
 # Quix Twitter Connector
 
-A Quix model can consume data from almost any source. In this case we'll be using the a Twitter developer account to consume Twitter data with a view to performing some real time analysis later on.
+A Quix model can be used to bridge data from almost any source. In this case we'll be using a Twitter developer account to stream Tweet data with a view to running real time ML models on the feed later on.
 
 To connect Quix to Twitter you'll need:
 
