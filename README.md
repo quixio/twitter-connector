@@ -234,15 +234,17 @@ Head over to the Data Catalogue, select the stream and click the visialize icon
 ![image](https://user-images.githubusercontent.com/1799158/115558822-057b3500-a2ab-11eb-9444-8735be02514c.png)
 
 Select the parameters you are interested in
+
 ![image](https://user-images.githubusercontent.com/1799158/115558906-19bf3200-a2ab-11eb-9f73-704040176ba1.png)
 
-![image](https://user-images.githubusercontent.com/1799158/115558949-2479c700-a2ab-11eb-925d-aab2476716d6.png)
 ![image](https://user-images.githubusercontent.com/1799158/115558979-2e032f00-a2ab-11eb-9e30-086b36890201.png)
 
 This will show us the data in a graph, but seeing as this is mostly text data lets click on the Table tab
+
 ![image](https://user-images.githubusercontent.com/1799158/115559151-5723bf80-a2ab-11eb-8ecf-26f038fa4887.png)
 
 Click "Load Data" and presto! You'll see all of the lovely Twitter data in Quix
+
 ![image](https://user-images.githubusercontent.com/1799158/115559272-791d4200-a2ab-11eb-8241-cb515bdf0bcb.png)
 
 
