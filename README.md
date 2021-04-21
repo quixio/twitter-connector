@@ -202,9 +202,11 @@ Give it any tag you want. Maybe "WorksFirstTime" ;-)
 
 ## Deploy
 Now click Deploy
+
 ![image](https://user-images.githubusercontent.com/1799158/115556963-2478c780-a2a9-11eb-9c67-9d3994f3e7c7.png)
 
 Select your 'version tag'. In my case it's "WorksFirstTime"
+
 ![image](https://user-images.githubusercontent.com/1799158/115557114-4b36fe00-a2a9-11eb-9082-e2e5f1dbbf07.png)
 
 If you want to edit the name you can, but it's not required at the moment.
