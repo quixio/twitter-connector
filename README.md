@@ -163,6 +163,12 @@ def get_stream(headers, set, quix_stream):
             # i want to store the tag in quix too so get the rules used to obtain this data
             matching_rules = json_response["matching_rules"]
             
+            # write this data to quix
+            quix_stream.parameters.buffer.add_timestamp(datetime.now()) \
+                .add_tag("tag", matching_rules[0]["tag"]) \
+                .add_value("tweet_id", data["id"]) \
+                .add_value("text", data["text"]) \
+                .write()
             
 # start everything going..
 def main():
