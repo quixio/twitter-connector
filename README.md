@@ -162,14 +162,8 @@ def get_stream(headers, set, quix_stream):
             data = json_response["data"]
             # i want to store the tag in quix too so get the rules used to obtain this data
             matching_rules = json_response["matching_rules"]
-
-            # create a pandas data frame with whatever data we need..
-            df = pd.DataFrame({'time': [datetime.now()], 'tweet_id': [data["id"]], "text": [data["text"]],
-                                "tag": [matching_rules[0]["tag"]]})
-
-            # write this data frame to quix
-            quix_stream.parameters.write(df)
-
+            
+            
 # start everything going..
 def main():
     bearer_token = os.environ.get("BEARER_TOKEN")
